@@ -77,6 +77,7 @@ train.csv
 - （2）若一个实例是正类，但是被预测为负类，即为假负类FN(False Negative )
 - （3）若一个实例是负类，但是被预测为正类，即为假正类FP(False Positive )
 - （4）若一个实例是负类，并且被预测为负类，即为真负类TN(True Negative )
+- 总结<span style="color:orange;">预测正确则为T，预测错误则为F</span>
 
 2、准确率（Accuracy）
 准确率是常用的一个评价指标，但是不适合样本不均衡的情况。
